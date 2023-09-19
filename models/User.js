@@ -1,5 +1,5 @@
 const { Schema, model, Types } = require('mongoose');
-const emailRegex = /^([\w-\/._]+)@([\w-\/._]+).(a-z){2,4}$/;
+const emailRegex = /^([\w-\/._]+)@([\w-\/._]+).[a-z]{2,4}$/;
 
 const userSchema = new Schema({
     username: {
