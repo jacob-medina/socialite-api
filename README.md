@@ -2,4 +2,4 @@
 
 ## Credits
 
-- Datetime Formatting: [date-and-time](https://www.npmjs.com/package/date-and-time)
+- Datetime Formatting: [date-fns](https://www.npmjs.com/package/date-fns)

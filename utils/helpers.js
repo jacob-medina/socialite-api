@@ -1,5 +1,5 @@
-const datetime = require('date-and-time');
+const { format } = require('date-fns');
 
 module.exports = {
-    formatDate: date => datetime.format(date, 'ddd, MMM DD YYYY')
+    formatDate: date => format(date, 'EEEE, LLL Mo y')
 }
