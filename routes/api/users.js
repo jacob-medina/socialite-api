@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const ObjectId = require('mongoose').Types.ObjectId;
 
-const { User } = require('../../models');
+const { User, Thought } = require('../../models');
 
 // GET all users
 router.get('/', async (req, res) => {
@@ -87,6 +87,9 @@ router.delete('/:id', async (req, res) => {
             res.status(404).json({ message: "Could not find user with that ID." });
             return;
         }
+
+        // delete associated thoughts
+        await Thought.deleteMany({ userId: req.params.id });
 
         res.status(200).json(userData);
     }
