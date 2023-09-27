@@ -1,14 +1,14 @@
 # Socialite API
 
-[Click here to see installation instructions](#installation)
+[🏗️ Click here to see installation instructions.](#installation)
 
-[Click here to view a walkthrough video]()
+[🎥 Click here to view a walkthrough video.](https://drive.google.com/file/d/1SGvfxOUZbqTZ4jTiDBx9OuRFKBiQXpVW/view?usp=sharing)
 
-The Socialite API provides 
+The Socialite API provides a robust solution for social network applications.
 
-![Socialite API Preview]()
+![Socialite API Preview](./readme-assets/Socialite%20API%20Preview.png)
 
-Longer description...
+Using MongoDB, Socialite API includes a database of users who can friend each other. Users are also able to create thoughts and add reactions to each other's thoughts.
 
 ## Installation
 
@@ -66,7 +66,7 @@ Then, you may use any API platform or client to make requests to the server. You
 
 ## Credits
 
-The following npm packages were used in the development of Fleet Commerce:
+The following npm packages were used in the development of Socialite API:
 
 - [mongoose](https://www.npmjs.com/package/mongoose)
 - [express](https://www.npmjs.com/package/express)
